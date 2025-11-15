@@ -1,0 +1,10 @@
+export { type Chapter } from "./chapter.interface";
+export { type Comic } from "./comic.interface";
+export { type Comment } from "./comment.interface";
+export * from "./common.interface";
+export { type Count } from "./count.interface";
+export { type Favorite } from "./favorite.interface";
+export { type Genre } from "./genre.interface";
+export { type ImageChapter } from "./image-chapter.interface";
+export { type Rating } from "./rating.interface";
+export { type User } from "./user.interface";

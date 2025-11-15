@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UserController = exports.RatingController = exports.GenreController = exports.FavoriteController = exports.CountController = exports.CommentController = exports.ComicController = void 0;
+var comic_controller_1 = require("./comic.controller");
+Object.defineProperty(exports, "ComicController", { enumerable: true, get: function () { return __importDefault(comic_controller_1).default; } });
+var comment_controller_1 = require("./comment.controller");
+Object.defineProperty(exports, "CommentController", { enumerable: true, get: function () { return __importDefault(comment_controller_1).default; } });
+var count_controller_1 = require("./count.controller");
+Object.defineProperty(exports, "CountController", { enumerable: true, get: function () { return __importDefault(count_controller_1).default; } });
+var favorite_controller_1 = require("./favorite.controller");
+Object.defineProperty(exports, "FavoriteController", { enumerable: true, get: function () { return __importDefault(favorite_controller_1).default; } });
+var genre_controller_1 = require("./genre.controller");
+Object.defineProperty(exports, "GenreController", { enumerable: true, get: function () { return __importDefault(genre_controller_1).default; } });
+var rating_controller_1 = require("./rating.controller");
+Object.defineProperty(exports, "RatingController", { enumerable: true, get: function () { return __importDefault(rating_controller_1).default; } });
+var user_controller_1 = require("./user.controller");
+Object.defineProperty(exports, "UserController", { enumerable: true, get: function () { return __importDefault(user_controller_1).default; } });
